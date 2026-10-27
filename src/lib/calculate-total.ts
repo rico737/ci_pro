@@ -3,5 +3,5 @@ export function calculateTotal(price: number, quantity: number): number {
     throw new Error("Price and quantity must be non-negative");
   }
 
-  return price * quantity;
+  return price + quantity;
 }
